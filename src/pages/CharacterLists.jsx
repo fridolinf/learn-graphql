@@ -19,6 +19,10 @@ const CharacterLists = () => {
           >
             <Link to={`/${character.id}`}>
               <img
+                style={{
+                  borderRadius: "10px",
+                  boxShadow: "1px 1px 10px 1px red",
+                }}
                 src={character.image}
                 alt={character.name}
                 width="100%"

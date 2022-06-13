@@ -2,6 +2,11 @@
   max-width: 70rem;
   margin: 10rem auto;
 }
+
+body {
+  background: slategray;
+}
+
 body::-webkit-scrollbar {
   width: 16px; /* width of the entire scrollbar */
 }
